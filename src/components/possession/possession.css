@@ -1,0 +1,111 @@
+body{
+}
+.teamtimers{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    .Homeactive{
+    color: blue;
+}
+.Awayactive{
+    color: red;
+}
+
+}
+
+
+
+
+.labels {
+    display: flex;
+    padding: 20px;
+    flex-wrap: wrap;
+    gap: 80px;
+    align-items: center;
+    justify-content: center;
+    h1{
+        text-align: center;
+        font-size: 1.7rem;
+    }
+}
+.timers{
+    display: flex;
+    padding-bottom: 30px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    h1{
+        text-align: center;
+        font-size: 1rem;
+        padding: 10px 30px;
+        border-radius: 5px;
+        border: 3px solid black;
+        margin-right: 50px;
+    }
+}
+.teambuttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+
+    button{
+        height: 70px;
+        min-width: 40px;
+        align-items: center;
+        background-color: #FFFFFF;
+        border: 2px solid black;
+        border-radius: .25rem;
+        box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+        box-sizing: border-box;
+        cursor: pointer;
+        display: inline-flex;
+        justify-content: center;
+        transition: 250ms;
+        line-height: 1.25;
+    }
+    button:hover{
+       background-color: lightgray;
+    }
+    .Homeactive{
+        background-color: lightgray;
+    }
+    .Awayactive{
+        background-color: lightgray;
+    }
+    .Pauseactive{
+        background-color: lightgray;
+    }
+    
+}
+.timers h1:last-child {
+    margin-right: 0;
+  }
+
+.meter-container{
+    margin: 20px 0;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+}
+.meter{
+    display: flex;
+    width: 40%;
+    border-radius: 15px;
+    overflow: hidden;
+    border: 1.3px solid black;
+    .homebar{
+        text-align: center;
+    background: blue;
+  }
+  .awaybar{
+    background: red;
+    text-align: center;
+  }
+}
+ 

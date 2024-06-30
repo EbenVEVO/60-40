@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
 }
 
 .App-logo {
@@ -27,6 +31,48 @@
 .App-link {
   color: #61dafb;
 }
+body{
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  margin: 0;
+}
+
+
+.stat-tracker {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  padding: 10px;
+}
+.statsinput {
+  display: grid;
+  grid-gap: 20px;
+  padding: 10px;
+}
+.datahub{
+  display: grid;
+  grid-gap:20px;
+  padding: 10px;
+}
+
+.stat-tracker > * {
+  padding: 20px;
+  border-radius: 2px;
+}
+
+.statsinput > * {
+  border: 1px solid black;
+  padding: 20px;
+  border-radius: 2px;
+}
+.datahub > * {
+  border: 1px solid black;
+  padding: 20px;
+  border-radius: 2px;
+}
+
 
 @keyframes App-logo-spin {
   from {

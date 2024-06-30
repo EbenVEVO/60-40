@@ -1,0 +1,102 @@
+
+@keyframes blink {
+    50%{
+        opacity: 0;
+    }
+}
+
+input{
+    text-align: center;
+    width: auto;
+    border: 0;
+    background-color: transparent;
+}
+.eventlog{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+}
+.player-buttons{
+    max-height: 250px;
+    display: flex;
+    gap: 20px;
+}
+.home-players{
+
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+    .selectedplayer{
+        border: 3px solid yellow;
+        input{
+            color: yellow;
+            animation: blink 750ms linear infinite;
+        }
+    }
+    button{
+        align-items: center;
+        justify-content: center;
+        min-width: 120px;
+        background-color: blue;  
+        border-radius: 5px;
+        border: 2px solid transparent;
+         input{
+            max-width: auto;
+            color: white;
+        }
+    }
+}
+.away-players{
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+    .selectedplayer{
+        border: 3px solid yellow;
+        input{
+            color: yellow;
+            animation: blink 750ms linear infinite;
+        }
+    }
+    button{
+        align-items: center;
+        justify-content: center;
+        min-width: 120px;
+        background-color: red;  
+        border-radius: 5px;
+        border: 2px solid transparent;
+         input{
+            max-width: auto;
+            color: white;
+        }
+    }
+}
+
+.events{
+    max-height: 400px;
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+    button{
+        align-items: center;
+        justify-content: center;
+        background-color: purple;  
+        border-radius: 5px;
+        color: white;
+        border: 2px solid transparent;
+        min-width: 150px;
+    }
+    .selectedevent{
+        border: 3px solid yellow;
+        span{
+            border: none;
+            color: yellow;
+            animation: blink 750ms linear infinite;
+        }
+    }
+}
+
+.addbutton button{
+  background-color: white;
+  border: 2px solid black;
+}
