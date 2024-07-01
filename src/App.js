@@ -6,9 +6,8 @@ import Eventlog from './components/eventlog/eventlog';
 import Possession from './components/possession/possession';
 import Eventtable from './components/eventtable/eventtable';
 import Teamstats from './components/teamstats/teamstats';
-import Scoreboard from './components/scoreboard/scoreboard';
 import Field from './components/field/field';
-import { BrowserRouter, Route, Routes, Router } from 'react-router-dom';
+import { BrowserRouter, Route, Routes} from 'react-router-dom';
 
 
 
